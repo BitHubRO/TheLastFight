@@ -1,0 +1,9 @@
+						As the name suggests, this game will lead 
+						  you into a fight with a scary monster, 
+						    for that, you will need to know 
+							how to fight, dodge and heal. 
+				    You will have to type a number corresponding to your choice. 
+						   Reading carefully will help you play. 
+						   After typing each number press ENTER.
+
+								1. Back to menu

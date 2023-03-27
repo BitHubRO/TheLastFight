@@ -1,0 +1,8 @@
+					According to the legend, this sword grants the wielder 
+				power from the gods themselves. With this fortune and blessing your 
+						   attack increases with +1 points.
+
+							Will you take the sword?
+
+								1. Yes
+								2. No

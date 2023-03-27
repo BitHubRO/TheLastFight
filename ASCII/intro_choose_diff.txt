@@ -1,0 +1,7 @@
+							Now that you are ready for battle, 
+							it is time to challenge yourself. 
+					Will you take the easy way out or will you push your limits 
+						fighting the guardian? It's your call to make. 
+						  Please choose the difficulty of the game:
+
+				    1. Very easy     2. Easy     3. Normal     4. Hard     5. Extreme

@@ -1,0 +1,10 @@
+						Goblins are known for their fearlessness, 
+					     their quick wits and sometimes impulsivity. 
+			     A goblin can attack very efficiently and effectively granting him +2 points 
+					 	  if he chooses to attack his opponent. 
+						    The goblin starts off with 20 hp.
+
+ 						      Would you like to be a goblin?
+
+   							 	   1. Yes
+    								   2. No

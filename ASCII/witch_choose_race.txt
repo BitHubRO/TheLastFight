@@ -1,0 +1,10 @@
+							A witch is a powerful spellcaster.
+					Studying thousands of spells and ingredients for different potions, 
+ 			  	    she has managed to perfect a heal spell and potion combo which grants 
+						her +2 points if she chooses to heal herself. 
+							The witch starts off with 22 hp.
+
+							 Would you like to be a witch?
+									1. Yes
+									2. No
+	

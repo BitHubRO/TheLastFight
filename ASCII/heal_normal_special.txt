@@ -1,0 +1,3 @@
+		While conjuring fires around him, the Minotaur accidentally lights up a bale of straw behind him. 
+		  The fire burns its hand, the damage hinders him from temporarily getting spells to work right. 
+					This decreases with -2 the Minotaurs ability to heal.

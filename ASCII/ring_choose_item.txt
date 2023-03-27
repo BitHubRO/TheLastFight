@@ -1,0 +1,9 @@
+						Enchanted by the highest priests themselves, 
+					it is said that this ring grants its bearer divine powers. 
+						With the accumulated efforts of the priests, 
+						this ring grants you +1 points when healing.
+
+							   Will you take the ring?
+
+									1. Yes
+									2. No

@@ -1,0 +1,8 @@
+							  You have to choose your race.
+						To gather more information type in the number
+						  of the race you want to know more about.
+					If you are set on your decision, after the description of
+						all races you can choose to be a part of them.
+
+	
+					    1. Witch            2.Goblin            3.Skeleton

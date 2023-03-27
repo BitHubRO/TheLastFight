@@ -1,0 +1,14 @@
+								Hello player!
+						"The Last Fight" is a text-based adventure 
+					   full of unexpected turns, different difficulty levels 
+							and an intriguing experience. 
+					   What lead to its creation was the interest and love 
+							of the team for such games. 
+					      We wanted to create an immersive experience. 
+						     The team is formed by two students, 
+						     Marian Elisei and Antonia Lutsch, 
+					       of the Technical University of Cluj Napoca. 
+							     Thank you for playing!
+
+
+							        1. Back to menu

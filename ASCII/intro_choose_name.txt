@@ -1,0 +1,5 @@
+							Now that you remember how you look, 
+							 it's time to remember your name...
+						       (use only one word, max 100 characters)
+
+				Type in the name of your character: 

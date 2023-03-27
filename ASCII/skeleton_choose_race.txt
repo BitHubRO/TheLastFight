@@ -1,0 +1,13 @@
+						Skeletons are the definition of not giving up. 
+				     They have existed for so long that they observed any and all attacks. 
+					Although because of their lack of muscles they can't always
+						move out of the way fast enough they have time 
+				   to contort their bodies so that the attack passes in between their bones 
+							   allowing for minimum damage. 
+					This grants the skeleton +2 protection during enemy attacks. 
+							The skeleton starts off with 18 hp.
+
+							Would you like to be a skeleton?
+
+									  1. Yes
+									  2. No

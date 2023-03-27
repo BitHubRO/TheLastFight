@@ -1,0 +1,10 @@
+						Smithed out of the most durable dragon bone, 
+					it is said that this shield can withstand the attacks 
+						of the most powerful and ferocious enemies. 
+						  Covered in dragon scales, if you carry 
+					  the shield it will grant you +1 points protection.
+
+							Will you take the shield?
+
+								1. Yes
+								2. No
