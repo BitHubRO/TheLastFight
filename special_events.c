@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#if defined(_WIN32)
 #include <windows.h>
+#endif
 #include <time.h>
 
 #include "char_creation.h"

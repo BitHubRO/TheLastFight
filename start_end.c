@@ -37,7 +37,11 @@ void start_game()
 
     while (choice_start != 1)
     {
-            system("cls");
+#if defined(_WIN32)
+        system("cls");
+#else
+        system("clear");
+#endif
             center_text();
             file_print(menu_start_game);
             scanf("%d", &choice_while);
@@ -45,20 +49,32 @@ void start_game()
         switch (choice_while)
         {
             case 1:
+#if defined(_WIN32)
                 system("cls");
+#else
+                system("clear");
+#endif
                 center_text();
                 file_print(ready_start_game);
                 scanf("%d", &choice_start);
 
                 if (choice_start == 1)
                 {
+#if defined(_WIN32)
                     system("cls");
+#else
+                    system("clear");
+#endif
                     printf("\n\n\n");
                     file_print(screen1_start_game);
                     file_print(ASCII_dungeon);
                     scanf("%d", &choice_intern);
 
+#if defined(_WIN32)
                     system("cls");
+#else
+                    system("clear");
+#endif
                     center_text();
                     file_print(screen2_start_game);
                     scanf("%d", &choice_intern);
@@ -66,7 +82,11 @@ void start_game()
                     break;
                 }
             default:
+#if defined(_WIN32)
                 system("cls");
+#else
+                system("clear");
+#endif
                 center_text();
                 file_print(quit_start_game);
 
@@ -74,13 +94,21 @@ void start_game()
 
                 break;
             case 2:
+#if defined(_WIN32)
                 system("cls");
+#else
+                system("clear");
+#endif
                 center_text();
                 file_print(how_start_game);
                 scanf("%d", &choice_intern);
             break;
             case 3:
+#if defined(_WIN32)
                 system("cls");
+#else
+                system("clear");
+#endif
                 center_text();
                 file_print(more_start_game);
                 scanf("%d", &choice_intern);
@@ -119,18 +147,30 @@ void mid_game()
     char ASCII_minotaur[]   = "ASCII_minotaur.txt";
     int choice_intern = 0, choice_switch = 0;
 
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(screen1_mid_game);
     scanf("%d", &choice_intern);
 
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(screen2_mid_game);
     file_print(ASCII_gryphon);
     scanf("%d", &choice_intern);
 
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(screen3_mid_game);
     scanf("%d", &choice_intern);
@@ -138,33 +178,53 @@ void mid_game()
     switch (choice_intern)
     {
         case 1:
-                system("cls");
+#if defined(_WIN32)
+            system("cls");
+#else
+            system("clear");
+#endif
                 center_text();
                 file_print(option1_mid_game);
                 scanf("%d", &choice_switch);
 
                 break;
         case 2:
-                system("cls");
+#if defined(_WIN32)
+            system("cls");
+#else
+            system("clear");
+#endif
                 center_text();
                 file_print(option2_mid_game);
                 scanf("%d", &choice_switch);
 
                 break;
         case 3:
-                system("cls");
+#if defined(_WIN32)
+            system("cls");
+#else
+            system("clear");
+#endif
                 center_text();
                 file_print(option3_mid_game);
                 scanf("%d", &choice_switch);
 
                 break;
     }
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(screen4_mid_game);
     scanf("%d", &choice_intern);
 
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(screen5_mid_game);
     file_print(ASCII_minotaur);
@@ -200,7 +260,11 @@ void end_game(Character *Player, char *name_p)
 
     if (Player->life > 0)
     {
+#if defined(_WIN32)
         system("cls");
+#else
+        system("clear");
+#endif
         center_text();
         file_print(ASCII_gameover);
         file_print(win_end_game);
@@ -209,7 +273,11 @@ void end_game(Character *Player, char *name_p)
     }
     else
     {
+#if defined(_WIN32)
         system("cls");
+#else
+        system("clear");
+#endif
         center_text();
         file_print(ASCII_gameover);
         file_print(lose_end_game);

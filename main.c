@@ -22,7 +22,11 @@ int main()
     monst.armor  = 0;
     monst.heal   = 0;
 
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     center_text();
     file_print(suggestion_start_game);
     scanf("%d", &choice_suggestion);
