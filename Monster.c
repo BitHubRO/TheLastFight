@@ -1,6 +1,8 @@
 #include "monster.h"
 #include "Custom_structures.h"
+#if defined(_WIN32)
 #include <windows.h>
+#endif
 #include <time.h>
 #include "char_creation.h"
 

@@ -1,9 +1,11 @@
 #include "Fight.h"
 #include "Custom_structures.h"
-#include "Monster.h"
+#include "monster.h"
+#if defined(_WIN32)
 #include <windows.h>
-#include <time.h>
 #include <conio.h>
+#endif
+#include <time.h>
 #include <stdio.h>
 //#include<unistd.h>
 
@@ -123,7 +125,11 @@ void The_Fight(Character *Player, Character *Monster, int round, int level){
 /*************************************************************************/
 
 void Display_Stats(Character *Player, Character *Monster){
+#if defined(_WIN32)
     system("cls");
+#else
+    system("clear");
+#endif
     printf("Your HP:%d \t\t\t\t\t\t\t\t\t\t\t\t Monster HP:%d\nYour attack:%d \t\t\t\t\t\t\t\t\t\t\t\t Monster attack:%d\nYour armor:%d \t\t\t\t\t\t\t\t\t\t\t\t Monster armor:%d\n", Player->life, Monster->life, Player->attack, Monster->attack, Player->armor, Monster->armor);
     printf("---------------------------------------------------------------------------------------------------------------------------------------\n\n\n");
 
@@ -146,7 +152,11 @@ void Display_Stats(Character *Player, Character *Monster){
 int stop_fight(Character *Player, Character *Monster){
     if(Player->life<=0 || Monster->life<=0)
         {
-            system("cls");
+#if defined(_WIN32)
+        system("cls");
+#else
+        system("clear");
+#endif
             printf("\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\tThe fight has ended!");
             //sleep(3);
             return 1;
